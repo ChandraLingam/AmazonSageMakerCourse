@@ -1,0 +1,14 @@
+# Objective: Simple example that shows how to invoke sagemaker endpoint
+# from command line
+# This example invokes Iris Classification model
+#   with csv content and predicted class is written to output.txt file
+# Uses ml_user_predict profile to invoke predictions
+
+# Setosa Example
+aws sagemaker-runtime invoke-endpoint --endpoint-name xgboost-iris-v1 --body "4.8,3.4,1.6,0.2" --content-type "text/csv" --profile ml_user_predict output.txt
+
+# Versicolor
+aws sagemaker-runtime invoke-endpoint --endpoint-name xgboost-iris-v1 --body "5.8,2.7,4.1,1.0" --content-type "text/csv" --profile ml_user_predict output.txt
+
+# Virginica
+aws sagemaker-runtime invoke-endpoint --endpoint-name xgboost-iris-v1 --body "6.4,3.1,5.5,1.8" --content-type "text/csv" --profile ml_user_predict output.txt
