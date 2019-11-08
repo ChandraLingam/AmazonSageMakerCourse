@@ -1,0 +1,8 @@
+Original Text:
+XGBoost routinely finds a top place in machine learning competitions. So, let's take a quick tour of XGBoost and compare it with a linear model and other tree-based methods. This spreadsheet contains the bike rental count prediction data set provided by Kaggle.
+
+Amazon Translate - English-Hindi (adjusted X G Boost):
+X G Boost नियमित रूप से मशीन सीखने की प्रतियोगिताओं में एक शीर्ष स्थान पाता है। तो, आइए X G Boost का त्वरित दौरा करें और इसकी तुलना रैखिक मॉडल और अन्य पेड़-आधारित विधियों से करें। इस स्प्रेडशीट में Kaggle द्वारा प्रदान की गई बाइक किराए पर लेने की गिनती पूर्वानुमान डेटा सेट होता है।
+
+Amazon Translate - English-Spanish:
+X G Boost encuentra rutinariamente un lugar importante en las competiciones de aprendizaje automático. Por lo tanto, vamos a hacer un recorrido rápido por X G Boost y compararlo con un modelo lineal y otros métodos basados en árboles. Esta hoja de cálculo contiene el conjunto de datos de predicción del recuento de bicicletas proporcionado por Kaggle.
