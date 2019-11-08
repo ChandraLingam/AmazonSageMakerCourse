@@ -1,0 +1,10 @@
+Phrase	IPA	SoundsLike	DisplayAs
+X.G.-Boost			XGBoost
+routinely			
+linear-model			linear model
+tree-based			tree based
+count			
+prediction			
+kaggle			
+data-set			data set
+provided			

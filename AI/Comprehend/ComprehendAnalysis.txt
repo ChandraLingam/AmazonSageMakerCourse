@@ -1,0 +1,15 @@
+Sentiment Analysis Examples:
+
+Reference: 
+https://en.wikipedia.org/wiki/Sentiment_analysis
+
+1.The movie is surprising with plenty of unsettling plot twists. (Negative term used in a positive sense in certain domains).
+
+2. "I love my mobile but would not recommend it to any of my colleagues"  (Qualified positive sentiment, difficult to categorise)
+
+3. "Pastel-colored 1980s day cruisers from Florida are ugly." (Simple cases)
+
+Medical Analysis:
+Mr. Smith is a 63-year-old gentleman with coronary artery disease and hypertension. CURRENT MEDICATIONS: taking a dose of LIPITOR 20 mg once daily.
+[https://aws.amazon.com/comprehend/features/]
+
