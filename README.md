@@ -1,4 +1,4 @@
-# AmazonSageMakerCourse  
+# Amazon SageMaker Course  
 SageMaker Course Material  
 
 
