@@ -51,9 +51,6 @@ In the AI Services section of this course,
 * The ideal student for this course is willing to learn, participate in the course Q&A forum when you need help, and you need to be comfortable coding in Python.
 
 ### Author
-My name is Chandra Lingam, and I am the instructor for this course.  
-I have over 50,000 thousand students  
-I spend a considerable amount of time keeping myself up-to-date and teach cloud technologies from the basics.  
-I have the following AWS Certifications: Solutions Architect, Developer, SysOps, Solutions Architect Professional, Machine Learning Specialty.  
-I am looking forward to meeting you.  
-Thank you!  
+My name is Chandra Lingam, and I am the instructor for this course.  I have over 50,000 thousand students and spend considerable amount of time keeping myself up-to-date and teach cloud technologies from the basics.
+
+I have the following AWS Certifications: Solutions Architect, Developer, SysOps, Solutions Architect Professional, Machine Learning Specialty.  I am looking forward to meeting you.
