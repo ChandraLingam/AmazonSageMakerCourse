@@ -51,9 +51,9 @@ def _load_data(file_path, channel):
 def _parse_args():
     parser = argparse.ArgumentParser()
 
-    # Hyperparameters are described here. In this simple example we are just including one hyperparameter.
+    # Hyperparameters are described here.
     parser.add_argument('--n_estimators', type=int, default=100)
-    parser.add_argument('--max_depth', type=int, default=-1)
+    parser.add_argument('--max_depth', type=int, default=5)
     
     # Data, model, and output directories
     # model_dir is always passed in from SageMaker. By default this is a S3 path under the default bucket.    
