@@ -22,8 +22,7 @@ from sklearn import ensemble
 from sklearn.externals import joblib
 
 
-def model(args, x_train, y_train, x_test, y_test):
-    # Now use scikit-learn's decision tree classifier to train the model.
+def model(args, x_train, y_train, x_test, y_test):   
     model = ensemble.RandomForestClassifier(n_estimators=args.n_estimators,max_depth=args.max_depth)
     model.fit(x_train, y_train)
     

@@ -25,7 +25,6 @@ import argparse
 
 
 def model(x_train, y_train, x_test, y_test):
-    """Generate a simple model"""
     model = tf.keras.models.Sequential()    
     model.add(tf.keras.layers.Dense(32, activation=tf.nn.relu, input_dim=x_train.shape[1]))
     model.add(tf.keras.layers.Dense(3, activation=tf.nn.softmax))    
@@ -42,7 +41,6 @@ def model(x_train, y_train, x_test, y_test):
               validation_data=(x_test,y_test),
               callbacks=[early_stopping])
     
-    #model.evaluate(x_test, y_test)
     return model
 
 
