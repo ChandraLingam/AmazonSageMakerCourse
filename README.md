@@ -1,10 +1,10 @@
-# Amazon SageMaker, AI, and Machine Learning Specialty Exam Course
+# AWS Certified Machine Learning Specialty (MLS-C01) Course
   
 ## To Enroll
 https://www.udemy.com/course/aws-machine-learning-a-complete-guide-with-python/?referralCode=9ADB4395937F7D656EB9  
   
 ## What you will learn
-Hi and Welcome to the Amazon SageMaker, AI and Machine Learning Specialty Exam Course  
+Hi and Welcome to the AWS Certified Machine Learning Specialty (MLS-C01) Course  
   
 I am Chandra Lingam, and I am your instructor.  
   
