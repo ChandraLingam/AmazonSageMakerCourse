@@ -40,7 +40,7 @@ def lambda_handler(event, context):
         output_record = {
             'recordId': record['recordId'],
             'result': 'Ok',
-            'data': base64.b64encode(payload)
+            'data': base64.b64encode(payload.encode('utf-8'))
         }
         output.append(output_record)
 
