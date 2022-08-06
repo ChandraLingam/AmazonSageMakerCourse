@@ -2,11 +2,16 @@
 # https://aws.amazon.com/blogs/machine-learning/call-an-amazon-sagemaker-model-endpoint-using-amazon-api-gateway-and-aws-lambda/
 # https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html#api-gateway-simple-proxy-for-lambda-output-format
 
+# Reference:
+# https://aws.amazon.com/blogs/machine-learning/call-an-amazon-sagemaker-model-endpoint-using-amazon-api-gateway-and-aws-lambda/
+# https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html#api-gateway-simple-proxy-for-lambda-output-format
+
 import boto3
 import math
 import dateutil
 import json
 import os
+import re
 
 # grab environment variables
 ENDPOINT_NAME = os.environ['ENDPOINT_NAME']
@@ -21,7 +26,7 @@ def transform_data(data):
         features = data.copy()
         # Extract year, month, day, dayofweek, hour
         dt = dateutil.parser.parse(features[0])
-    
+        
         features.append(dt.year)
         features.append(dt.month)
         features.append(dt.day)
@@ -56,10 +61,17 @@ def lambda_handler(event, context):
     
         result = result['Body'].read().decode('utf-8')
         
+        # Splitting using regular expression as xgboost 1-2-2 is returning
+        # predicted values with inconsistent delimiters (comma, newline or both)
+
+        # pattern looks for one or more of non-numeric characters
+        pattern = r'[^0-9.]+'
+        
         # Apply inverse transformation to get the rental count
         print(result)
-        result = result.split(',')
-        predictions = [math.expm1(float(r)) for r in result]
+        result = re.split(pattern,result)
+        
+        predictions = [math.expm1(float(r)) for r in result if r != ""]
         
         return {
             'statusCode': 200,
