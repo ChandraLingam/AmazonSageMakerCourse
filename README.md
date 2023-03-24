@@ -16,7 +16,7 @@ https://www.udemy.com/course/aws-machine-learning-a-complete-guide-with-python/?
 ## What you will learn
 Hi and Welcome to the AWS Certified Machine Learning Specialty (MLS-C01) Course  
   
-I am Chandra Lingam, and I am your instructor.  
+I'm Chandra Lingam, and I'll be your instructor for this course. With over 100K students, I'm committed to staying current with the latest technologies and sharing my knowledge from the fundamentals up. I'm excited to have the opportunity to meet you and guide you through this course.
   
 Here is what you will learn in this course:  
 •	Gain first-hand experience on how to train, optimize, deploy, and integrate ML in AWS cloud  
