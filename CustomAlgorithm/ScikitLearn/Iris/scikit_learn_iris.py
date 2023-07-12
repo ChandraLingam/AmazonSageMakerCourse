@@ -19,7 +19,10 @@ import pandas as pd
 import json
 
 from sklearn import ensemble
-from sklearn.externals import joblib
+# from sklearn.externals import joblib
+# joblib is no longer part of sklearn.externals
+# we can directly import it
+import joblib
 
 
 def model(args, x_train, y_train, x_test, y_test):   
