@@ -1,0 +1,12 @@
+*** Enabling Docker Access in SageMaker Studio Applications ***
+By default, local mode and Docker capabilities are disabled in Studio applications. To enable Docker access, follow these steps:
+
+1. Open AWS CloudShell.
+2. Execute the following command, replacing region with your AWS region and domain-id with your SageMaker Studio domain ID:
+    aws --region region \
+    sagemaker update-domain --domain-id domain-id \
+    --domain-settings-for-update '{"DockerSettings": {"EnableDockerAccess": "ENABLED"}}'
+3. Stop and restart your JupyterLab instance
+       
+Reference:
+https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-local.html#studio-updated-local-enable
